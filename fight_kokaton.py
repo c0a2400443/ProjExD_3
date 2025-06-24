@@ -172,6 +172,7 @@ def main():
                     # ビームと爆弾がぶつかったとき
                     beam = None
                     bomb = None
+                    bird.change_img(6, screen)
 
 
         key_lst = pg.key.get_pressed()
