@@ -151,7 +151,7 @@ class Score:
         文字列を生成
         """
         self.score = 0
-        self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
+        self.fonto = pg.font.SysFont(None, 30)
         self.img = self.fonto.render(f"スコア:{self.score}", 0, (0, 0, 255))
     
     def upDate(self, screen: pg.Surface):
